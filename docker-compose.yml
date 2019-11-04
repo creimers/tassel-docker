@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  tassel:
+    build:
+      context: .
+    volumes:
+      - ./data:/srv/data
